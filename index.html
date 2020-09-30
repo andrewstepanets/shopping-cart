@@ -54,6 +54,9 @@
 
             </div>
             <div class="shopping-cart">
+                <div class="mobile-menu-btn">
+                    <a href="#">Categories</a>
+                </div>
                 <div class="breadcrumbs">
                     <span>Home > Shopping Cart</span>
                 </div>
@@ -81,6 +84,9 @@
                                     <img src="./img/item-01.jpg" alt="Item icon" class="img-item">
                                     <span class="name-item">H&M Chino Shorts</span>
                                 </div>
+                                <div class="mobile name-quantity">
+                                    <p>Quantity</p>
+                                </div>
                                 <select class="item-quantity">
                                     <option>1</option>
                                     <option>2</option>
@@ -88,6 +94,12 @@
                                     <option>4</option>
                                     <option>5</option>
                                 </select>
+                                <div class="mobile cost-title">
+                                    <p>Per Pack</p>
+                                </div>
+                                <div class="mobile total-title">
+                                    <p>Subtotal</p>
+                                </div>
                                 <span class="cost-item">$138.82</span>
                                 <span class="total-cost">$138.82</span>
                                 <button class="btn-cancel">
@@ -100,6 +112,9 @@
                                         class="img-item">
                                     <span class="name-item">Bobbies Elegant Leather Driving Shoes <span>
                                 </div>
+                                <div class="mobile name-quantity">
+                                    <p>Quantity</p>
+                                </div>
                                 <select class="item-quantity">
                                     <option>1</option>
                                     <option>2</option>
@@ -107,6 +122,12 @@
                                     <option>4</option>
                                     <option>5</option>
                                 </select>
+                                <div class="mobile cost-title">
+                                    <p>Per Pack</p>
+                                </div>
+                                <div class="mobile total-title">
+                                    <p>Subtotal</p>
+                                </div>
                                 <span class="cost-item">$138.82</span>
                                 <span class="total-cost">$138.82</span>
                                 <button class="btn-cancel">
@@ -115,6 +136,110 @@
                             </div>
                         </div>
                         <!-- /.cart-items -->
+                        <div class="cart-items-total">
+                            <h2 class="total-title-cost">
+                                Price with all discounts:
+                            </h2>
+                            <span class="total-cost">
+                                $132.82
+                            </span>
+                        </div>
+                        <!-- /.cart-items-total -->
+                        <div class="block bonus-block">
+                            <div class="block-title">
+                                <h3 class="title">Choose your bonus, it's free</h3>
+                                <button class="add-bonus">Free</button>
+                            </div>
+                            <div class="block-info">
+                                <p class="info-text">Each item in the basket increases the size of the bonus
+                                products. Update your product to increase the number of
+                                items in rebate.</p>
+                                    <ul class="bonus-list">
+                                        <li class="list-item">
+                                            <input type="radio" id="bonus-01" name="radio-group1"
+                                                checked class="radio-btn">
+                                            <label for="bonus-01"><img src="./img/hat.png"
+                                                    alt="Bonus 1" class="img-bonus"> <span>ASOS
+                                                    Skinny Band Felt Floppy Hat</span></label>
+                                        </li>
+                                        <li class="list-item">
+                                            <input type="radio" id="bonus-02" name="radio-group1"
+                                                class="radio-btn">
+                                            <label for="bonus-02"><img src="./img/tshirt.png"
+                                                    alt="Bonus 2" class="img-bonus"> <span>H&M
+                                                    Polo Shirt</span></label>
+                                        </li>
+                                        <li class="list-item">
+                                            <input type="radio" id="bonus-03" name="radio-group1"
+                                                class="radio-btn">
+                                            <label for="bonus-03"> <span>Thank, no
+                                                    bonuses</span></label>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                        <div class="block delivery-block">
+                            <div class="block-title">
+                                <h3 class="title">SELECT SHIPPING</h3>
+                                <span class="block-cost">$20</span>
+                            </div>
+                            <div class="block-info">
+                                <ul class="delivery-list">
+                                        <li class="list-item">
+                                            <input type="radio" id="delivery-01"
+                                                name="radio-group2" checked
+                                                class="radio-btn">
+                                            <label for="delivery-01">
+                                                <div class="delivery-wrapper">
+                                                    <img src="./img/airmail.svg" alt="delivery 1"
+                                                        class="img-delivery">
+                                                    <span>Reg.Mail (14-21 business days)</span>
+                                                </div>
+                                            </label>
+                                        </li>
+                                        <li class="list-item">
+                                            <input type="radio" id="delivery-02"
+                                                name="radio-group2" class="radio-btn">
+                                            <label for="delivery-02">
+                                                <div class="delivery-wrapper">
+                                                    <img src="./img/ems.svg" alt="delivery 2"
+                                                        class="img-delivery"> <span>EMS (5-9 business days)</span></label>
+                                                </div>
+                                        </li>
+                                </ul>
+                                <div class="delivery-info">
+                                    <p class="info-text">Selected Delivery: <span class="type-delivery">Reg.Mail</strong></p>
+                                    <p class="info-text">The approximate delivery date is <span class="date-delivery">December, 17 - December, 29</span></p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="block insurance-block">
+                        <div class="block-title">
+                            <h3 class="title">INCLUDE DELIVERY INSURANCE,
+                                USD 4.99</h3>
+                            <span class="block-cost">$4.99</span>
+                        </div>
+                        <div class="block-info">
+                            <ul class="bonus-list">
+                                <li class="list-item">
+                                    <input type="checkbox" id="insurance"
+                                        name="insurance-group" checked
+                                        class="checkbox-btn">
+                                    <label for="insurance">
+                                        <span class="info-text">You pay for each
+                                            package in case they are sent
+                                            separately.</span></label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cart-items-total">
+                        <h2 class="total-title-cost">
+                            TOTAL:
+                        </h2>
+                        <span class="total-cost">
+                            $152.82
+                        </span>
                     </div>
                     <!-- /.cart-body -->
                 </div>
@@ -130,6 +255,93 @@
                 </div>
             </div>
            </div> 
+           <div class="modal-coupone">
+               <div class="wrapper-modal-dialog">
+                <div class="modal-header">
+                    <button class="btn-cancel close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <h2 class="title-cart">Discount Coupone</h2>
+                    <!-- <p class="title-code">ENTER YOUR COUPON CODE IF YOU HAVE ONE.</p> -->
+                </div>
+                <div class="coupone-info">
+                    <div class="enter-info">
+                        <p>ENTER YOUR COUPON CODE IF YOU HAVE ONE.</p>
+                    </div>
+                    <label class="enter-area">
+                        <span>CODE</span>
+                        <input type="text">
+                    </label>
+                    <button class="btn btn-right">
+                        <span>Apply</span>
+                        <img src="./img/arrow-right.gif" alt="Confirm Data">
+                    </button>
+                </div>
+               </div>
+           </div>
+           <!-- ./ modal-coupone -->
+        <div class="mobile-menu">
+            <button class="btn close-mobile-menu"><i class="fas fa-times"></i></button>
+            <div class="categories-header">
+                <div class="wrap-name-type">
+                    <span class="categories-name">
+                        Categories
+                    </span>
+                </div>
+                <a class="home-link" href=".index.html">Home</a>
+            </div>
+            <!-- ./ categories-header -->
+            <ul class="categories-list">
+                <li class="list-item active"><a href="#"
+                        class="item-link">Bedding & bath</a>
+                    <ul class="sub-menu">
+                        <li class="sub-menu-item"><a href="#"
+                                class="sub-link">Bedding & bath</a>
+                        </li>
+                        <li class="sub-menu-item"><a href="#"
+                                class="sub-link">Appliances</a></li>
+                        <li class="sub-menu-item"><a href="#"
+                                class="sub-link">Patio, Lawn &
+                                garden</a></li>
+                        <li class="sub-menu-item"><a href="#"
+                                class="sub-link">Fiine art</a></li>
+                    </ul>
+                </li>
+                <li class="list-item"><a href="#"
+                        class="item-link">Kitchen & Dining</a></li>
+                <li class="list-item"><a href="#"
+                        class="item-link">Furniture</a></li>
+                <li class="list-item"><a href="#"
+                        class="item-link">Bedding & Bath</a></li>
+                <li class="list-item"><a href="#"
+                        class="item-link">Appliances</a></li>
+                <li class="list-item"><a href="#"
+                        class="item-link">Patio, Lawn & Garden</a>
+                </li>
+                <li class="list-item"><a href="#"
+                        class="item-link">Fine Art</a></li>
+                <li class="list-item"><a href="#"
+                        class="item-link">Arts, Crafts & Sewing</a>
+                </li>
+                <li class="list-item"><a href="#"
+                        class="item-link">Pet supplies</a></li>
+                <li class="list-item"><a href="#"
+                        class="item-link">Wedding Registry</a></li>
+                <li class="list-item"><a href="#"
+                        class="item-link">Home Improvement</a></li>
+                <li class="list-item"><a href="#"
+                        class="item-link">Power & Hand Tools</a>
+                </li>
+                <li class="list-item"><a href="#"
+                        class="item-link">Lamps & Light Fixtures</a>
+                </li>
+                <li class="list-item"><a href="#"
+                        class="item-link">Kitchen & Bath
+                        Fixtures</a></li>
+            </ul>
+        
+        </div>
+           <script src="./js/main.js"></script>
         </body>
     </html>
     
